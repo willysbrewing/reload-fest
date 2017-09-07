@@ -444,6 +444,7 @@ section.cartel{
 
 /* Cartel */
 section.mosaic{
+  padding: 10px 0;
   position: relative;
   background-size: cover;
   background-image: url(../images/RELOAD-FEST-patron-rayo.jpg);
@@ -487,6 +488,10 @@ section.feat ul li{
   list-style-type: none;
 }
 
+section.feat ul li .btn.btn-social{
+  font-size: 32px;
+}
+
 section.feat#what{
   padding: 60px 0 100px 0;
 }
@@ -499,17 +504,15 @@ section.feat.screen .content{
   padding: 20px 30px;
 }
 section.feat.screen#festival{
+  background-image: url('/images/reloadgroup.jpg');
+}
+section.feat.screen#sala{
   background-image: url('https://www.willysbrewing.com/media/images/elchicofeo.2e16d0ba.fill-1800x978.jpg');
 }
-section.feat.screen#willys{
-  background-image: url('../images/willysanuncio.jpg');
-}
 
-section.feat.quote  {
-  padding: 60px 0 80px 0;
+section.feat.quote{
+  padding: 80px 0 100px 0;
   background-size: cover;
-  background-position-x: -60px;
-  background-position-y: 10px;
   background-image: url(../images/RELOAD-FEST-patron-rayo.jpg);
   background-repeat: no-repeat;
   text-align: center;
@@ -535,6 +538,10 @@ section.feat.quote p{
     padding: 20px 0;
   }
 
+  section.feat.screen.patrocinador .content{
+    padding: 0 0 30px 0;
+  }
+
   section.feat .box{
     padding: 0;
     background-color: inherit;
@@ -544,7 +551,11 @@ section.feat.quote p{
 
   section.feat ul li .btn{
     height: 40px;
-    padding: 8px 40px;
+    padding: 8px 20px;
+  }
+
+  section.feat ul li .btn.btn-social{
+    font-size: 32px;
   }
 
   section.feat img{
@@ -571,9 +582,9 @@ section.feat.quote p{
 /* AD */
 section.ad{
   /*margin-top: -60px;*/
-  min-height: 520px;
-  max-height: 520px;
-  height: 520px;
+  min-height: 200px;
+  max-height: 200px;
+  height: 200px;
   position: relative;
   background-size: cover;
   background-image: url(../images/willysanuncio.jpg);
@@ -587,7 +598,7 @@ section.ad img{
 
 /* Footer */
 footer.footer {
-  padding: 20px 0;
+  padding: 0 0 20px 0;
 }
 
 footer .title{
